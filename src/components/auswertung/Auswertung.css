@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Auswertung{
+    min-height: 100vh;
+    margin-top:75px;
+    margin-bottom: 75px;
+    
+}
+
+.AuswertungsHeader{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 20px auto;
+    background-color: red;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+.AuswertungsStatus{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.AuswertungsBlock{
+    margin: 10px;
+    
+}
+
+.AuswertungsErgebnis{
+    margin: 10px;
+       
+    
+}
+
+
+@media screen and (max-width:780px){
+
+
+.AuswertungsHeader{
+    font-size: 1.5rem;
+}
+.AuswertungsStatus{
+    font-size: 1.25rem;
+}
+
+
+
+
+}
+

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.HilfeSeite{
+    min-height: 100vh;
+    margin-top:75px;
+    margin-bottom: 75px;
+    
+}
+
+.header{
+    font-size: 2.5rem;
+}
+
+.HilfeArtikel{
+    width: 70%;
+    margin:2rem auto;
+    padding:1rem;
+    background-color:lightblue;   
+    /* border: 2px solid grey; */
+    border:2px solid rgb(55, 186, 230);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.title{
+    
+    font-weight: bold;
+}
+
+.HilfeTips{
+    font-size: 2rem;
+    font-weight: bold;
+    margin:30px 0px;
+}
+
+.HilfeHeadline{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.emphasise{
+    font-weight: bold;
+    color: rgb(94, 92, 92);
+    font-style: italic;
+    
+}
+
+.header{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px auto;
+    background-color: red;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+@media screen and (max-width:780px) {
+   .header{
+       font-size: 2rem;
+   }
+
+   .HilfeTips{
+       font-size: 1.5rem;
+   }
+   .HilfeHeadline{
+       font-size: 1.2rem;
+   }
+   .HilfeArtikel{
+    width:90%;
+}
+   
+
+}
+
+@media screen and (max-width:450px) {
+    .header{
+        font-size: 1.5rem;
+    }
+ 
+    .HilfeTips{
+        font-size: 1rem;
+    }
+    .HilfeHeadline{
+        font-size: 0.8rem;
+    }
+    .HilfeArtikel{
+        width:100%;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+    
+ 
+ }

@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Main {
+  height: 100vh;
+  margin-top: 75px;
+  
+}
+
+.MainHeader {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  width: 100%;
+  background-color: red;
+
+  color: white;
+  padding: 10px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.Ueberuns {
+  width: 80%;
+  margin: 10px auto;
+  border: 2px solid red;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.Anleitung {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: nowrap;
+}
+
+.c1 {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.c2 {
+  background-color: orange;
+  color: white;
+}
+
+.c3 {
+  background-color: seagreen;
+  color: white;
+}
+
+.Acard {
+  width: 30%;
+  min-width: 250px;
+  border-radius: 30px 20px 0 0;
+  box-shadow: 5px 5px 5px gray;
+  padding: 15px;
+}
+
+.MainArtikelTitel {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 780px) {
+  .Main {
+    margin-bottom: 100px;
+  }
+
+  .MainHeader {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .Anleitung {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    }
+  .Acard {
+    margin-top: 30px;
+    width: 350px;
+  }
+
+  
+  .Ueberuns {
+    width: 350px;
+  }
+}

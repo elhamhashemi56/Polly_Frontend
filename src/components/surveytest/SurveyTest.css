@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SurveyTest{
+    height: 100vh;
+    
+    margin-top:75px;
+
+ 
+}
+
+
+
+.SurveyTitel{
+    font-size: 2rem;
+    
+}  
+
+.SurveyHeader{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 20px auto;
+    background-color: red;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+
+
+.AuswahlsListe{
+   
+    margin: auto;
+    width: 300px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: azure;
+    color:dimGrey
+
+}
+
+.SelectionText{
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:780px) {
+    .SurveyHeader{
+        font-size: 1.2rem;
+    }
+    .SurveyTitel{
+        font-size: 1.5rem;
+    }
+
+    .AuswahlsListe{
+        text-align: left;
+        
+    }
+
+}

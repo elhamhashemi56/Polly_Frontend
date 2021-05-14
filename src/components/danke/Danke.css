@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.Danke {
+  min-height: 100vh;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  
+}
+
+.DankeHeader {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px auto;
+  background-color: red;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.Danke2Titel {
+  
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: left;
+  width: 80%;
+  margin: 100px auto 10px;
+  padding: 20px;
+
+}
+.Danke2Text {
+  font-size: 1.5rem;
+  width: 80%;
+  border: grey 1px solid;
+  margin:30px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: azure;
+  
+}
+
+.DankeMessage {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px auto;
+  
+  text-align: center;
+  width: 80%;
+}
+
+.DankeLink{
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  color:black;
+  margin: 20px auto;
+  background-color: azure;
+  cursor: pointer;
+  width: 80%;
+  }
+
+.DankeShareLink{
+  display: block;
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-size: 1rem;
+
+  }
+
+.QrCode{
+  padding: 10px;
+  border: dodgerblue 1px solid;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+
+
+@media screen and (max-width: 780px) {
+  .DankeHeader {
+    padding-left: 20px;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .Danke2Titel {
+    font-size: 1.5rem;
+    
+  }
+
+  .DankeLink{
+    font-size: 55%;
+    text-align: center;
+    
+    
+  }
+
+  .Danke2Text {
+    font-size: 1.0rem;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  .DankeMessage {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .DankeShareLink{
+    font-size: 55%;
+  }
+}
